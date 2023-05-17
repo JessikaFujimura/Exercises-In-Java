@@ -12,7 +12,7 @@ public class AreaOfCircle {
         Scanner sc = new Scanner(System.in);
         double radius = sc.nextDouble();
         double area = (Math.pow(radius, 2) * pi);
-        System.out.printf("A=%.4f", area);
+        System.out.println("A=" + String.format("%.4f", area));
         sc.close();
     }
 
